@@ -1,5 +1,11 @@
 body{
-  background-image: url("");
+  background-image: url("/img/back.jpg");
+  margin-left: 20px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
 }
 
 #ben{
@@ -28,5 +34,7 @@ body{
   #reset-btn {
     display:none;
   }
-  
+  footer{
+    background-color: slategray;
+  }
   
