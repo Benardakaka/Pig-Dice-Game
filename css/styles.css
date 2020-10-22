@@ -1,5 +1,5 @@
 body{
-  background-image: url("../img/backg.jpeg");
+  background-image: url("../img/kk.webp");
   margin-left: 20px;
   margin-right: 20px;
    background-repeat: no-repeat; 
@@ -9,12 +9,10 @@ body{
 }
 nav{
   text-align: center;
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
   justify-content: space-between;
   color: black;
 }
+
 #ben{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,7 +29,7 @@ nav{
 }
 #player1-scorecard {
   
-    color: aqua;
+    color: black;
    }
    .card{
      margin-left: 2opx;
@@ -49,7 +47,7 @@ nav{
   }
   
    #player2-scorecard {
-    color: aqua;
+    color: black;
   }
    
   .col {
@@ -59,7 +57,7 @@ nav{
   }
  
   #rollDisplay {
-  color: aqua;
+  color: black;
   }
    
   #reset-btn {
