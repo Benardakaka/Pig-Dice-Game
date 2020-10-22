@@ -1,8 +1,8 @@
 body{
-  background-image: url("../img/ba.png");
+  background-image: url("../img/im.jpeg");
   margin-left: 20px;
   margin-right: 20px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center center;
   padding: 20x;
@@ -20,8 +20,12 @@ nav{
     color: slategray;
 }
 #player1-scorecard {
-    /* display: none; */
-    color: tan;
+  
+    color: aqua;
+   }
+   .card{
+     margin-left: 2opx;
+     margin-right: 20px;
    }
 
   #player1{
@@ -34,22 +38,22 @@ nav{
     padding: 20xp;
   }
   
-  /* #player2-scorecard {
-    display:none;
+   #player2-scorecard {
+    color: aqua;
   }
-   */
+   
   .col {
     border: 1px solid black;
     border-radius: 15px;
     margin: 10px;
   }
-/*   
+ 
   #rollDisplay {
-   display: none;
+  color: aqua;
   }
-   */
+   
   #reset-btn {
-    display:none;
+    color: aqua;
   }
   footer{
     background-color: slategray;
