@@ -8,12 +8,58 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div id="ben">
+  <h1>Hello! Hello!,Welcome to Pig Dice Pig-Dice-Game</h1>   
+</div>
+<br><br><br>
     <div class="container">
-    <div id="ben">
-      <h1>Hello! Hello!,Welcome to Pig Dice Pig-Dice-Game</h1>   
+    <div class="row">
+      <div class="col">
+        <div id="player1">
+          <form id="player1-form">
+            <div class="form-group" id="player1-submitcard">
+            </br>
+              <input type="text" placeholder="1st Player Name" class="form-control" id="p1InputName" required>
+              <input type="text" placeholder="2rd Player Name" class="form-control" id="p1InputName" required>
+              <input type="text" placeholder="3rd Player Name" class="form-control" id="p1InputName" required>
+              </br>
+              <button type="submit" class="btn btn-primary form-control">Start!</button>
+            </div>
+            <div class="form-group" id="player1-scorecard">
+              <h3 id="player1-name"></h3>
+              <h4>Running Total: <span id="p1runningTotal"></span></h4>
+              <h4>Score Total:<span id="p1scoreTotal"></span></h4>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col">
+        <div id="dice">
+          </br>
+          <button type="button" name="roll" id="roll-button" class="form-control btn btn-success">Roll Out</button>
+          <br><br>
+          <button type="button" name="roll" id="hold-button" class="form-control btn btn-warning">Hold On</button>
+        </div>
+        <div id="rollDisplay">
+          <p></p>
+        </div>
+      </div>
+      <div class="col">
+        <div id="player2">
+          <div class="form-group" id="player2-scorecard">
+            <h3 id="player2-name"></h3>
+            <h4>Running Total: <span id="p2runningTotal"></span></h4>
+            <h4>Score Total:<span id="p2scoreTotal"></span></h4>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <div class="row" id="reset-btn">
+      <button type="button" name="reset" class="form-control btn btn-info">Reset</button>
     </div>
-    
+    </div>
+    <footer>
+      
+    </footer>
 </body>
 </html>

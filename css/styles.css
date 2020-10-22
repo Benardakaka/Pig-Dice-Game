@@ -1,5 +1,32 @@
+body{
+  background-image: url("");
+}
+
 #ben{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: lime;
+    color: slategray;
 }
+#player1-scorecard {
+    display: none;
+  }
+  
+  #player2-scorecard {
+    display:none;
+  }
+  
+  .col {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  #rollDisplay {
+   display: none;
+  }
+  
+  #reset-btn {
+    display:none;
+  }
+  
+  
