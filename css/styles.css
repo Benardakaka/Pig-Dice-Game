@@ -1,8 +1,8 @@
 body{
-  background-image: url("../img/im.jpeg");
+  background-image: url("../img/backg.jpeg");
   margin-left: 20px;
   margin-right: 20px;
-  /* background-repeat: no-repeat; */
+   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center center;
   padding: 20x;
@@ -13,11 +13,21 @@ nav{
   padding-left: 20px;
   padding-right: 20px;
   justify-content: space-between;
+  color: black;
 }
 #ben{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: slategray;
+    color: black;
+    border-color: blue;
+    
+}
+
+
+
+.rules{
+  text-align: center;
+  color: black;
 }
 #player1-scorecard {
   
