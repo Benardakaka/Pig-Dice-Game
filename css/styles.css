@@ -21,7 +21,9 @@ nav{
     
 }
 
-
+#contact{
+  text-align: center;
+}
 
 .rules{
   text-align: center;
@@ -30,6 +32,8 @@ nav{
 #player1-scorecard {
   
     color: black;
+    float: right;
+
    }
    .card{
      margin-left: 2opx;
@@ -65,5 +69,6 @@ nav{
   }
   footer{
     background-color: slategray;
+    padding: 4%;
   }
   
