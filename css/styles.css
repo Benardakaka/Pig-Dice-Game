@@ -77,11 +77,11 @@ nav{
   
   
   .menu li:hover {
-    background-color: blue;
+    background-color: lightgreen;
   }
 
 #img1:hover{
-background-color: blue;
+background-color: mediumspringgreen;
 }
 
 
@@ -133,5 +133,5 @@ html {
 }
 
 .menu li:hover {
-  background-color: blue;
+  background-color: ghostwhite;
 }
