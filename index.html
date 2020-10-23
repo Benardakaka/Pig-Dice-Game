@@ -10,26 +10,25 @@
 <body>
 
   <div class="container">
-    <!-- nav &header -->
-    <div class="card-header">
-            <nav>
-                <div class="kaka">
-                    <p class="nav-items">
-                        <a href="#sign">Sign-in</a>
-                        <a href="#play">play now</a>
-                        <a href="#contact">Contact US</a>
-                </p>
-           
-               </div> 
-            </nav>
+    <div class="header">
+      <h1>Hello! Hello!,Welcome to Pig-Dice-Game</h1>  
     </div>
+    
+    <!-- nav &header -->
+
+      <div class="col-3 menu"> 
+    <ul>
+          <li><a href="#sign">Sign-in</a></li>
+          <li><a href="#play">play now</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    </ul>
+    </div> 
     <!-- end of nav -->
         <br>
  
           
-            <div id="ben">
-                  <h1>Hello! Hello!,Welcome to Pig Dice Pig-Dice-Game</h1>   
-          </div><br> 
+          
            <!-- my player 1  -->
           <div class="row">
             <div class="col-md-4">
@@ -113,24 +112,25 @@
        </div>
           </div>
               
-
+                  
    <!-- end of procedures-->
+   <div id="play" style="text-align: center;"style="color: blue;"><h1>play now</h1></div>
     <div class="row">
+      
       <div class="col">
         <div id="player1">
           <form id="player1-form">
-            <div class="form-group" id="player1-submitcard">
-            </br>
+            </br><br>
               <input type="text" placeholder="1st Player Name" class="form-control" id="p1InputName" required>
-              <input type="text" placeholder="2rd Player Name" class="form-control" id="p1InputName" required>
-          
+              <input type="text" placeholder="2rd Player Name" class="form-control" id="p2InputName" novalidate>
+              
               </br>
               <button type="submit" class="btn btn-primary form-control">Start!</button>
             </div>
             <div class="form-group" id="player1-scorecard">
               <h3 id="player1-name"></h3>
               <h4>Running Total: <span id="p1runningTotal"></span></h4>
-              <h4>Score Total:<span id="p1scoreTotal"></span></h4>
+              <h4>Total Score:<span id="p1scoreTotal"></span></h4>
             </div>
           </form>
         </div>
@@ -157,7 +157,7 @@
       </div>
     </div>
     <div class="row" id="reset-btn">
-      <button type="button" name="reset" class="form-control btn btn-info">Reset</button>
+      <button type="button" name="reset" class="form-control btn btn-info">Reset Game</button>
     </div>
     
     <br><br>
@@ -166,7 +166,7 @@
       <div id="contact">
         <h3>CONTACT US</h3>
       </div>
-
+           <p>&copy; 2020 Benard Akaka</p>
       <div class="row">
       <div class="col-md-2">
         
@@ -204,8 +204,8 @@
 
 
     </footer>
-   
   </div>
+  
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
