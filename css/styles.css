@@ -94,7 +94,7 @@ nav{
   box-sizing: border-box;
 }
 
-.row:hover{
+.row{
   clear: both;
   display: table;
 }

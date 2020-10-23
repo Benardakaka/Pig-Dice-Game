@@ -44,11 +44,11 @@ function Player(userName,score) {
       event.preventDefault();
       var p1Name = $("#p1InputName").val();
       var playerObject = new Player(p1Name, 0);
-      var computerObject = new Player("Mercy", 0);
+      var computerObject = new Player("Mercy Akinyi", 0);
       playerArray.push(playerObject, computerObject);
       $("#player1-name").text(p1Name);
       $("#player1-scorecard").show();
-      $("#player2-name").text("Mercy");
+      $("#player2-name").text("Mercy Akinyi");
       $("#player2-scorecard").show();
       $("#player1-submitcard").show();
     });
