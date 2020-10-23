@@ -1,13 +1,13 @@
-//Business Logic
+//Business Logic using Constractor
 function Player(userName,score) {
     this.userName = userName;
     this.score = score;
   }
-  
+  // inherit prototype
   Player.prototype.totalScore = function (number) {
     return this.score += number;
   };
-
+// declaration odf variable
   var playerArray = [];
   var rollArray = [0];
   
@@ -60,7 +60,7 @@ function Player(userName,score) {
       if (currentRollPlayer === 1) {
         $("#p1runningTotal").text(0);
         emptyRollArray();
-        //computer turn
+        //computer turn(for loop)
         for (var i = 0; i < 2; i++) {
           runningRollDice();
           var currentRollComputer= rollArray[rollArray.length-1];
@@ -87,7 +87,7 @@ function Player(userName,score) {
       $("#player1-scorecard").show();
       $("#rollDisplay").show();
     });
-  
+             //hold button
     $("#hold-button").click(function(){
       playerArray[0].totalScore(rollArrayTotal(getSum));
       $("#p1scoreTotal").text(playerArray[0].score);
@@ -97,7 +97,7 @@ function Player(userName,score) {
         alert("congratulations " + playerArray[0].userName + ", you are winner!");
         $("#reset-btn").show();
       }
-      //computer turn
+      //computer turn rest button
       for (var i = 0; i < 2; i++) {
         runningRollDice();
         var currentRollComputer= rollArray[rollArray.length-1];

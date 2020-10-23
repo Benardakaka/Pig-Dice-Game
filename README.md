@@ -1,14 +1,11 @@
 ## PIG-DICE-GAME
-[Check it out](https://github.com/Benardakaka/Pig-Dice-Game)
+[Check it out here:](https://github.com/Benardakaka/Pig-Dice-Game)
 
 
 ## Author:
 # BENARD AKAKA
 ## Description: 
 A Pig-Dice-Game web application.
-
-
-
 ## Technologies:
 * HTML
 * CSS
@@ -22,8 +19,8 @@ A Pig-Dice-Game web application.
 | 1st player     | ` Benard`   |
 | 2rd player    | ` Mercy`   |
 | 3rd player     | ` Kerry`   |
-| Total Scores    | ` 100`  |
-| Number of player   | ` 2`   |
+| Total Scores    | ` 100 scores`  |
+| Number of player   | ` 3`   |
 | Roll on  | ` More than 5 times`|
 | Registration mode   | ` No register for the game`   |
 
