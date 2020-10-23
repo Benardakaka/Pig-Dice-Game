@@ -1,5 +1,5 @@
 ## PIG-DICE-GAME
-[Check it out]("https://github.com/Benardakaka/Pig-Dice-Game")
+[Check it out](https://github.com/Benardakaka/Pig-Dice-Game)
 
 
 ## Author:
