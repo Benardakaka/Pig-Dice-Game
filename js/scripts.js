@@ -49,7 +49,7 @@ function Player(userName,score) {
     }
   }
   
-  //User Logic
+  //User Logic.
   $(function(){
     $("#player1-form").submit(function(event){
       event.preventDefault();
