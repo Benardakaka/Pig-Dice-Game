@@ -1,13 +1,13 @@
 // toggle images
 $(document).ready(function () {
-      $(".card").toggle(5000);
-      $(".card").toggle(5000);
+      $("#pro1").toggle(5000);
+      $("#pro1").toggle(5000);
   });
 
-  $(".card").mouseover(function () {
-    $(".card").show();
-}).mouseout(function () {
-    $(".card").hide();
+  $("#img1").hover(function () {
+    $("#pro").show();
+}).hover(function () {
+    $("#pro").show();
 });
 //Business Logic using Constractor
 function Player(userName,score) {
