@@ -1,3 +1,14 @@
+// toggle images
+$(document).ready(function () {
+      $(".card").toggle(5000);
+      $(".card").toggle(5000);
+  });
+
+  $(".card").mouseover(function () {
+    $(".card").show();
+}).mouseout(function () {
+    $(".card").hide();
+});
 //Business Logic using Constractor
 function Player(userName,score) {
     this.userName = userName;
